@@ -17,7 +17,7 @@ mult.sh: Uses shuf command-line options to generate a list of random numbers.
 
 With no truncation
 
-| ./modmult.sh -nm 10 N |        |        |       |
+| ./mult.sh -nm 10 N |        |        |       |
 |-----------------------|--------|--------|-------|
 |                       | real   | user   | sys   |
 | 100                   | 0.006  | 0.006  | 0.001 |
@@ -27,5 +27,5 @@ With no truncation
 | 1_000_000             | 0.154  | 0.153  | 0.000 |
 | 10_000_000            | 1.323  | 1.315  | 0.007 |
 | 100_000_000           | 13.027 | 12.995 | 0.032 |
-|                       |        |        |       |
+
 
