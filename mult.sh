@@ -10,7 +10,7 @@ while getopts "nml:" opt; do
   m) m=1;; 
   l) start=$OPTARG;; 
   n) trunc=0;;
-  *) m=0; trunc=0;;
+  *) m=0; trunc=1;;
   esac
 done
    shift $((OPTIND-1))
